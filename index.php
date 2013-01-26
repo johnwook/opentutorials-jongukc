@@ -22,7 +22,7 @@ if (!empty($_GET['id'])) {
     <style type="text/css">
 		body {
 			font-size: 0.8em;
-			font-family: dotum;
+			font-family: gothic;
 			line-height: 1.6em;
 		}
 		body.black {
