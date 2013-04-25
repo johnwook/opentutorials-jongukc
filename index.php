@@ -1,6 +1,6 @@
 <?php
 // 1. 데이터베이스 서버에 접속
-$link = mysql_connect('localhost', 'root', 'xlsk');
+$link = mysql_connect('localhost', 'root', 'xlsk87');
 if (!$link) {
 	die('Could not connect: ' . mysql_error());
 }
@@ -91,6 +91,7 @@ if (!empty($_GET['id'])) {
                 <input type="button" value="white" onclick="document.getElementById('body').className='white'" />
             </div>
             <nav>
+				<a href="./add.php"> <button>토픽추가</button> </a>
                 <ul>
                   <?php
 					$sql = "select id,title from topic";
